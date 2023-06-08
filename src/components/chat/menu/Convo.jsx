@@ -73,7 +73,7 @@ function Convo({ user }) {
         </Container>
         <Box>
           <Text>
-            {message?.text?.includes("localhost") ? "media" : message.text}
+            {message?.text?.includes("talkhub-server") ? "media" : message.text}
           </Text>
         </Box>
       </Box>
